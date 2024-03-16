@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="nav">
+                <h1>Flashcards</h1>
+                <div>
+                    <button id="newCard">New Card</button>
+                    <button id="delCards">Del Cards</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="create-box">
+            <h2>Create Flashcards</h2>
+            <label for="question">Question</label>
+            <div>
+                <textarea id="question"></textarea>
+            </div>
+            <label for="answer">Answer</label>
+            <div>
+                <textarea id="answer"></textarea>
+            </div>
+            <button id="save">Save</button>
+            <button id="close">Close</button>
+            
+
+        </div>
+        <div class="flashcards">
+            
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

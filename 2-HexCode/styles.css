@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+
+    /* font-size: 50px; */
+}
+.container{
+    border: 1px solid black;
+    /* width: 90vw; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    margin-bottom: 100px;
+    font-size: 50px;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate;
+}
+h2{
+    font-size: 40px;
+    margin-top: 100px;
+}
+.button{
+    border: 1px solid black;
+    margin-top: 50px;
+}
+button{
+    height: 50px;
+    width: 90px;
+    font-size: larger;
+}
+@keyframes changecolor {
+    0%{
+        color: pink;
+    }
+    20%{
+        color: blue;
+    }
+    40%{
+        color: green;
+    }
+    60%{
+        color: yellow;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    height: 700px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 6%;
+    position: relative;
+    /* margin: auto; */
+    overflow: hidden;
+    /* object-fit: cover; */
+}
+.slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1.7s ease-in-out;
+    /* object-fit: cover; */
+}
+i{
+    font-size: 130px;
+    color: black;
+    /* width: 10px; */
+}
+i:hover{
+    font-size: 135px;
+    opacity: 0.3;
+}
+.left{
+    margin-left: 100px;
+    padding: 5px;
+}
+.right{
+    margin-right: 100px;
+    padding: 5px;
+}

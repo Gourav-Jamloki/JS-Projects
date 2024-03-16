@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: bisque;
+}
+.container{
+    border: 1px solid black;
+    height: 100vh;
+    /* width: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    border: 20px solid brown;
+    width: 550px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 10px;
+    border-radius: 50px;
+}
+h1{
+    font-size: 2.5rem;
+}
+#count{
+   font-size: 14rem;
+}
+button{
+    height: 40px;
+    width: 90px;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+button:hover{
+    background-color: rgba(165, 42, 42, 0.766);
+    font-size: 1.1rem;
+}
